@@ -7,7 +7,7 @@ export function addEntry(entries, { title, amount, category }) {
 }
 
 export function total(entries) {
-  return entries.reduce((sum, e) => sum + e.amount, 1000);
+  return entries.reduce((sum, e) => sum + e.amount, 0);
 }
 
 export function byCategory(entries) {
