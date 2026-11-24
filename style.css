@@ -1,0 +1,17 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: "Noto Sans TC", system-ui, sans-serif; background: #17171a; color: #f4f3ef; }
+main { max-width: 520px; margin: 0 auto; padding: 32px 20px 60px; }
+.tag { color: #f28c28; font-size: 14px; margin: 0; }
+h1 { font-size: 36px; margin: 4px 0 20px; }
+h2 { font-size: 18px; margin: 28px 0 8px; color: #b3b2b8; }
+.total-card { background: #232327; border: 1px solid #333; border-radius: 16px; padding: 20px; display: flex; justify-content: space-between; align-items: baseline; }
+.total-card strong { font-size: 32px; color: #f28c28; }
+form { display: grid; grid-template-columns: 1fr 110px; gap: 10px; margin-top: 20px; }
+input, select, button { font: inherit; padding: 12px; border-radius: 10px; border: 1px solid #3a3a40; background: #1f1f23; color: inherit; }
+button { background: #f28c28; color: #17171a; border: 0; font-weight: 700; cursor: pointer; }
+button:focus-visible, input:focus-visible, select:focus-visible { outline: 2px solid #f28c28; outline-offset: 2px; }
+.ghost { background: transparent; border: 1px solid #3a3a40; color: #b3b2b8; margin-top: 20px; }
+#error { color: #ff6b6b; min-height: 1.2em; }
+ul { list-style: none; padding: 0; margin: 0; }
+li { display: flex; justify-content: space-between; padding: 12px 4px; border-bottom: 1px solid #2a2a2f; }
+li small { margin-left: 8px; color: #8d8c93; font-size: 12px; }
