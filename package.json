@@ -1,0 +1,13 @@
+{
+  "name": "ai-expense-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "AI 拆解室示範專案：用來示範 Git、GitHub 和 CI/CD 的記帳小網頁",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "vitest": "^3.2.4"
+  }
+}
