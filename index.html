@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI 記帳本｜AI 拆解室示範專案</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <header>
+      <p class="tag">AI 拆解室示範專案</p>
+      <h1>AI 記帳本</h1>
+    </header>
+    <section class="total-card">
+      <span>本月總額</span>
+      <strong id="total">NT$ 0</strong>
+    </section>
+    <form id="form">
+      <input id="title" placeholder="項目，例如：午餐" autocomplete="off">
+      <input id="amount" type="number" inputmode="numeric" placeholder="金額">
+      <select id="category">
+        <option>餐飲</option><option>交通</option><option>購物</option><option>其他</option>
+      </select>
+      <button type="submit">記一筆</button>
+    </form>
+    <p id="error" role="alert"></p>
+    <h2>明細</h2>
+    <ul id="list"></ul>
+    <h2>分類統計</h2>
+    <ul id="cats"></ul>
+    <button id="clear" class="ghost" type="button">清空</button>
+  </main>
+  <script type="module" src="src/app.js"></script>
+</body>
+</html>
